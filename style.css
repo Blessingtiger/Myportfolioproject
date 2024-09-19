@@ -378,7 +378,7 @@
 }
 
 /* ! SECTION TESTIMONIALS */
-.section-testimonials {
+/* .section-testimonials {
   background: linear-gradient(transparent, #f8e7f0 75%);
   padding: 4.8rem 0 9.6rem 0;
 }
@@ -388,7 +388,7 @@
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
-}
+} */
 
 .gallery-text h3 {
   font-size: 3rem;
@@ -419,7 +419,7 @@
   text-align: center;
 }
 
-.feedback-imgs {
+/* .feedback-imgs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.8rem;
@@ -428,7 +428,7 @@
 .feedback-imgs img {
   max-width: 100%;
   border-radius: 10px;
-}
+} */
 
 /* ! SECTION CONTACT */
 .section-contact {

@@ -243,10 +243,10 @@
   .gallery-items {
     grid-template-columns: 1fr;
   }
-  .feedback-imgs {
+  /* .feedback-imgs {
     grid-template-columns: 1fr;
     max-width: 100%;
-  }
+  } */
   .contact {
     flex-direction: column;
     gap: 3.2rem;

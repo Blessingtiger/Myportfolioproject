@@ -5,7 +5,7 @@
     "type": "shampoo",
     "category": "Color / Dyed Hair",
     "description": "Protects the dye and hair from the sun and atmospheric agents. The hair remains shiny, brilliant, and the depth and intensity of the freshly made color are maintained for a long time. The cuticle is hydrated and radiant. Enriched with Amino Concentree.",
-    "price": 10,
+    "price": 15000,
     "image": "../shop/imgs/products imgs/SAMPON PROTECTIA CULORII – PH 5.png"
   },
   {
@@ -14,7 +14,7 @@
     "type": "mask",
     "category": "Shine",
     "description": "Shampoo of splendor, ensures balanced cleansing of the scalp and leaves the hair extremely hydrated and shiny.",
-    "price": 20,
+    "price": 2000,
     "image": "../shop/imgs/products imgs/SAMPON CU ULEIURI CAPTIVANTE – PH 5.5.jpeg"
   },
   {
@@ -23,7 +23,7 @@
     "type": "mask",
     "category": "Reconstruction",
     "description": "Cleans gently while replenishing essential substances for compacting the cuticle, leaving the hair strong, toned, and vigorous. Contains beta-carotene, which provides cosmetic reconstruction treatment and protects the hair from degradation caused by physiological processes (dyeing, aging), chemical processes, or environmental factors. Reconstruction effect.",
-    "price": 30,
+    "price": 3000,
     "image": "../shop/imgs/products imgs/SAMPON RECONSTRUCTIV – PH 5.8.png"
   },
   {
@@ -32,7 +32,7 @@
     "type": "shampoo",
     "category": "Nourishment / Nutritive",
     "description": "Cleanses while hydrating and nourishing. Quenches the hair's hydration 'thirst,' forming a coating on lengths and ends for detangled, silky, and shiny hair. Contains Shea butter and Guar gum. Enriched with Amino Concentree.",
-    "price": 40,
+    "price": 4000,
     "image": "../shop/imgs/products imgs/SAMPON NUTRITIV – PH 5.5.png"
   },
   {
@@ -41,7 +41,7 @@
     "type": "mask",
     "category": "Repair / Regeneration",
     "description": "Shampoo that regenerates and leaves the hair very silky. Cleans gently while intensely nourishing and repairing the structure of damaged hair, restoring its strength and natural shine. Contains Lifesaver liposome (Leucine, Isoleucine, Valine, hydrolyzed Wheat proteins, Creatine), Cyperus, Sacha Inchi, Linseed, Sesame, and Moringa oils, and Panthenol.",
-    "price": 50,
+    "price": 5000,
     "image": "../shop/imgs/products imgs/SAMPON REGENERATOR – PH 5.5.jpeg"
   },
   {
@@ -50,7 +50,7 @@
     "type": "shampoo",
     "category": "Sebum Regulating",
     "description": "Abietic acid and Soy proteins act synergistically, determining a dermo-purifying, dermo-protective, and hydrating action, gently eliminating excess sebum. Provides a feeling of purity, reduces discomfort caused by irritation, and maintains a purified scalp and clean hair for a long time. Ginger extract, with its exceptional ability to fight free radicals, prevents hair thinning, ensuring balanced cleansing. Hair is full, toned, with volume.",
-    "price": 60,
+    "price": 6000,
     "image": "../shop/imgs/products imgs/SAMPON ECHILIBRARE SEBUUM – PH 5.5.png"
   },
   {
@@ -59,7 +59,7 @@
     "type": "mask",
     "category": "Styling",
     "description": "Soothing foam for curls, strong hold. Creates soft, light, voluptuous curls and provides the hair with body, structure, and volume. The fast-absorbing formula guarantees defined but elastic and bouncy curls. Contains Pequi and Rosehip oil.",
-    "price": 70,
+    "price": 7000,
     "image": "../shop/imgs/products imgs/TWINE – SPUMA PENTRU CONTROLUL BUCLELOR.jpeg"
   },
   {
@@ -68,7 +68,7 @@
     "type": "shampoo",
     "category": "Blonde",
     "description": "Colour-enhancing shampoo that is ideal for warm blondes.",
-    "price": 80,
+    "price": 8000,
     "image": "../shop/imgs/products imgs/BLONDE - BLONDE SUNSET ENHANCING SHAMPOO.jpeg"
   }
 ]

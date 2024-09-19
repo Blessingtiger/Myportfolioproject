@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="BT_Allure"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./general.css" />
+    <link rel="stylesheet" href="./queries.css" />
+    <script defer src="./script.js"></script>
+    <title>BT_Allure</title>
+  </head>
+  <body>
+    <header id="home" class="header nav-open hidden">
+      <a href="#"
+        ><img
+          class="logo"
+          src="./imgs/Logo.png"
+          alt="BT_Allure LOGO"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#despre">About</a></li>
+          <li><a class="main-nav-link" href="#servicii">Services</a></li>
+          <li>
+            <a
+              class="main-nav-link"
+              href="./shop/shopindex.html"
+              target="_blank"
+              >Products Shop</a
+            >
+            <hr />
+          </li>
+          <li><a class="main-nav-link" href="#galerie">Gallery</a></li>
+          <li>
+            <a class="main-nav-link btn btn--full" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav close-btn"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero section container">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              The Art of Makeup and Hairstyling: Destination for Style and
+              Confidence
+            </h1>
+            <p class="hero-description">
+              Indulge in a luxurious beauty experience at our makeup and hairstyling salon. 
+              In a serene and pristine setting, we provide our clients with cutting-edge techniques and premium products to elevate your appearance, 
+              turning it into a true masterpiece.
+            </p>
+            <div class="wrapper-follow-us">
+              <a href="https://wa.me/+2347043861794" class="btn btn--full">
+                Make an appointment</a
+              >
+              <div class="follow-us">
+                <a
+                  class="ionicons-link ionicons-hidden"
+                  target="_blank"
+                  href="https://www.instagram.com//"
+                >
+                  <ion-icon class="ionicons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a
+                  class="ionicons-link ionicons-hidden"
+                  target="_blank"
+                  href="https://web.facebook.com/?_rdc=1&_rdrs"
+                >
+                  <ion-icon class="ionicons" name="logo-facebook"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="customers">
+              <!-- <div class="customer-imgs async-img">
+                <img src="./imgs/customer-1.jpg" alt="customer" /><img
+                  src="./imgs/customer-2.jpg"
+                  alt="customer"
+                /><img src="./imgs/customer-3.jpg" alt="customer" /><img
+                  src="./imgs/customer-4.jpg"
+                  alt="customer"
+                /><img src="./imgs/customer-5.jpg" alt="customer" /><img
+                  src="./imgs/customer-6.jpg"
+                  alt="customer"
+                />
+              </div> -->
+              <div class="customer-text">
+                <p>
+                  <span>1000+</span> hairstyles and makeup in the last 2 years!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <img
+                class="hero-img async-img"
+                src="./imgs/about img.jpeg"
+                alt="A general view of the saloon"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-hr" />
+
+      <section id="servicii" class="section-services section container">
+        <div class="cards-container">
+          <h3>Services:</h3>
+          <div class="box-area container">
+            <div class="box">
+              <img
+                src="./imgs/Hairstyling.png"
+                alt="Woman with hairstyle"
+                class="async-img"
+              />
+              <div class="overlay">
+                <h3>Hairstyling</h3>
+                <p>
+                  At our salon, we greet you with professionalism and care to provide a personalized hairstyling experience. 
+                  Following a thorough consultation, our skilled hairstylists will craft a look tailored to your individual style and preferences. 
+                  With the latest techniques and top-quality products, we guarantee you’ll leave with a flawless hairstyle.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="./imgs/Make Up.png"
+                alt="Woman with make up"
+                class="async-img"
+              />
+              <div class="overlay">
+                <h3>Make Up</h3>
+                <p>
+                  At our salon, our makeup specialists provide a personalized and sophisticated experience. 
+                  Through a detailed consultation, we explore your preferences and desired makeup look. 
+                  Using premium products and professional techniques, we craft a look that perfectly complements 
+                  your features and suits the occasion or your personal style.
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shop section container">
+        <div class="container-shop">
+          <div class="shop-text">
+            <div>
+              <h3>Professional products</h3>
+              <p>
+                &nbsp; &nbsp; At our salon, we are committed to our passion for healthy, lustrous hair, offering 
+                an exclusive selection of premium hair care products designed to enhance your natural beauty.
+              </p>
+            </div>
+
+            <p>
+              &nbsp; &nbsp; 💇‍♀️🌿 From deeply hydrating shampoos to nutrient-packed hair masks and essential oils, 
+              we provide everything you need to nurture and pamper your hair. No matter your hair type or specific needs, 
+              we are dedicated to helping you achieve soft, shiny, and healthy hair. 
+            </p>
+
+            <p>
+              &nbsp; &nbsp; 💆‍♂️💆‍♀️🌸 Quality and effectiveness are at the heart of our approach. 
+              We exclusively partner with the industry's most reputable and esteemed brands, offering trusted 
+              products formulated with the finest ingredients. Each product is carefully crafted to deliver 
+              visible results and a luxurious sensory experience with every use. 
+            </p>
+            <p>
+              &nbsp; &nbsp; 🌟🍃 Don’t wait any longer! Explore our complete range of hair care products and elevate 
+              your hair care routine to a truly indulgent and refined experience. 💖🛒
+            </p>
+            <div class="btn-shop">
+              <a
+                class="btn btn--full"
+                href="./shop/shopindex.html"
+                target="_blank"
+                >See Store</a
+              >
+            </div>
+          </div>
+          <div class="shop-img async-img">
+            <img src="./imgs/All in one makeup product.jpeg" alt="Hairstyling products" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-stats section container">
+        <div class="stats">
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="cut-outline"></ion-icon>
+              <p class="title-icon">Hairstylings</p>
+              <p class="number-icon">120+</p>
+            </div>
+          </div>
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="checkmark-done-outline"></ion-icon>
+              <p class="title-icon">Eyebrow Styling</p>
+              <p class="number-icon">100+</p>
+            </div>
+          </div>
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="brush-outline"></ion-icon>
+              <p class="title-icon">Makeups</p>
+              <p class="number-icon">200+</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="despre" class="section-about section">
+        <div class="about">
+          <div class="hero-img-box">
+            <picture>
+              <img
+                class="about-img async-img"
+                src="./imgs/about img compressed.jpeg"
+                alt="Photo of Blessing looking at the camera"
+              />
+            </picture>
+          </div>
+          <div class="about-text-box">
+            <h2 class="heading-secondary">
+              🌟 Discover the Art of Beauty with Blessing Tiger
+            </h2>
+            <h2 class="heading-tertiary about-heading">
+              💄 Make up <span>- Your personal expression</span>
+            </h2>
+            <p class="about-description">
+              In every makeup application, Blessing Tiger highlights the natural
+              beauty of each client. With exceptional skill in contouring and
+              accentuating features, each look is personalized to fit both the
+              style and the individual personality.
+            </p>
+            <h2 class="heading-tertiary about-heading">
+              💇 Hairstyling <span>- Elegance and Refinement</span>
+            </h2>
+            <p class="about-description">
+              With extensive experience in hairstyling, she creates hairstyles
+              that not only please the eye but also contour and complement your
+              overall look. From casual and natural hairstyles to sophisticated
+              and trendy styles, each creation reflects her meticulous attention
+              to detail and passion for beauty.
+            </p>
+            <h2 class="heading-tertiary about-heading">
+              🌟 Experience and Recognition
+            </h2>
+            <p class="about-description">
+              With an impressive career spanning over 12 years, Blessing Tiger is a
+              remarkable presence in the beauty industry. Her talent and
+              meticulous approach have garnered appreciation and recognition
+              from both clients and the industry alike.
+            </p>
+            <div class="wrapper-follow-us">
+              <a href="https://wa.me/07043861794" class="btn btn--full"
+                >Book now</a
+              >
+              <div class="follow-us">
+                <a
+                  class="ionicons-link"
+                  target="_blank"
+                  href="https://www.instagram.com/"
+                >
+                  <ion-icon class="ionicons" name="logo-instagram"></ion-icon
+                ></a>
+
+                <a
+                  class="ionicons-link"
+                  target="_blank"
+                  href="https://web.facebook.com/?_rdc=1&_rdr"
+                >
+                  <ion-icon class="ionicons" name="logo-facebook"></ion-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <section id="galerie" class="section-testimonials section container">
+        <div class="testimonials container">
+          <div class="gallery">
+            <div class="gallery-text">
+              <h3>Faith:</h3>
+            </div>
+            <div class="gallery-items async-img">
+              <img src="./imgs/Galerie/imgg-1.png" alt="client picture" />
+              <img src="./imgs/Galerie/imgg-2.jpeg" alt="client picture" />
+              <img src="./imgs/Galerie/imgg-3.png" alt="client picture" />
+              <img src="./imgs/Galerie/imgg-4.jpeg" alt="client picture" />
+              <img src="./imgs/Galerie/imgg-5.png" alt="client picture" />
+              <img src="./imgs/Galerie/imgg-6.png" alt="client picture" />
+            </div>
+          </div> 
+         
+      </section>
+
+      <section id="contact" class="section-contact section container">
+        <div class="contact">
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="location-outline"></ion-icon>
+              <p class="title-icon">Our <span>Adress:</span></p>
+              <p class="text-icon">Str: Linda Chalker Cresent Asokoro, Abuja.</p>
+            </div>
+          </div>
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="call-outline"></ion-icon>
+              <p class="title-icon">Phone <span>Appointments:</span></p>
+              <p class="text-icon">Mobile: 07043861794</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex-column">
+              <ion-icon class="icon" name="time-outline"></ion-icon>
+              <p class="title-icon">Working<span> Hours:</span></p>
+              <p class="text-icon">Mon - Sat: 8:00 - 17:00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section-google-map section">
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2865.717756058749!2d26.632865776078958!3d44.08917982412423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ae2d8d17b7f90b%3A0xa0552498a951540c!2sStrada%20Nicolae%20B%C4%83lcescu%2027%2C%20Olteni%C8%9Ba%20915400!5e0!3m2!1sro!2sro!4v1710789064853!5m2!1sro!2sro"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section> -->
+
+      <footer class="footer-section section">
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#"
+              ><img
+                class="logo"
+                src="./imgs/Footer Logo.jpeg"
+                alt="BT_Allure"
+              />
+            </a>
+            <p class="footer-text">
+              <span class="year">2024</span> BT_Allure
+            </p>
+            <br />
+            <a class="copyright" href="#"><p>© Made By Blessing Tiger</p></a>
+          </div>
+          <div class="cookie">
+            <a class="cookie-link" href="#"><p>Cookie policy</p></a>
+            <a class="cookie-link" href="#"><p>Privacy Policy</p></a>
+          </div>
+          <div class="footer-buttons">
+            <div class="follow-us">
+              <a
+                class="ionicons-link"
+                target="_blank"
+                href="https://www.instagram.com//"
+              >
+                <ion-icon class="ionicons" name="logo-instagram"></ion-icon
+              ></a>
+
+              <a
+                class="ionicons-link"
+                target="_blank"
+                href="https://web.facebook.com/blessing.eruona/"
+              >
+                <ion-icon class="ionicons" name="logo-facebook"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

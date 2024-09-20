@@ -172,7 +172,7 @@ const renderCart = () => {
     return sum + item.qty;
   }, 0);
   // show cart total
-  selectors.cartTotal.textContent = calculateTotal() + " EUR";
+  selectors.cartTotal.textContent = calculateTotal() + " NGN";
 
   // show cart items
   selectors.cartBody.innerHTML = cart
@@ -189,7 +189,7 @@ const renderCart = () => {
           <img src="${image}" alt="Product photo" class="cart-img">
           <div class="detail-box">
             <div class="cart-product-title">${name}</div>
-            <div class="cart-price">${amount} EUR</div>
+            <div class="cart-price">${amount} NGN</div>
             <div class="cart-item-amount">
                   <i class="bi bi-dash-lg" data-btn="decr"></i>
                   <span class="qty">${qty}</span>
@@ -225,7 +225,7 @@ const renderProducts = () => {
           <img class="item-img" src="${image}" alt="product image" />
           <h3 class="item-name">${name}</h3>
           <p class="item-description">${description}</p>
-          <h3 class="item-price"><span>${price} </span> EUR</h3>
+          <h3 class="item-price"><span>${price} </span> NGN</h3>
           <a data-id="${id}" class="add-to-cart ${disabled}">${text}</a>
         </div>
       `;
@@ -254,7 +254,7 @@ const filteredProducts = (filteredProducts) => {
           <img class="item-img" src="${image}" alt="product image" />
           <h3 class="item-name">${name}</h3>
           <p class="item-description">${description}</p>
-          <h3 class="item-price"><span>${price} </span> EUR</h3>
+          <h3 class="item-price"><span>${price} </span> NGN</h3>
           <a data-id="${id}" class="add-to-cart ${disabled}">${text}</a>
         </div>
       `;

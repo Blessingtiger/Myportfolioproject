@@ -14,7 +14,7 @@ const selectors = {
   cartBody: document.querySelector(".cart-content"),
   cartItem: document.querySelector(".cart-box"),
   cartTotal: document.querySelector(".total-price"),
-  cartRemoveBtn: document.querySelector(".cart-remove"),
+  cartRemoveBtn: document.querySelector(".cart-remov"),
   displayCatEl: document.querySelector(".display-cat"),
   inputEl: document.querySelector(".form-control"),
   searchBtnEl: document.querySelector(".search-btn"),

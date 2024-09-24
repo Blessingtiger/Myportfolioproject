@@ -84,7 +84,7 @@
   }
 }
 
-
+/* Below 400px */
 @media (max-width: 25em) {
   .contact-shop {
     gap: 1.4rem;

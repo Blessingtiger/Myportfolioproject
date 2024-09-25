@@ -303,7 +303,8 @@ const searchInput = () => {
   }
 };
 
-// Search input for mobile
+// Search input for mobile.
+
 const searchInputMobile = () => {
   const searchValue = selectors.mobileInputEl.value.trim().toLowerCase();
 

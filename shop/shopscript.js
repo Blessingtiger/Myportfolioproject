@@ -283,40 +283,46 @@ selectors.categoryButtons.forEach((button) => {
 });
 
 // Search input
+// Search input for desktop
 const searchInput = () => {
-  let searchValue = selectors.inputEl.value;
+  const searchValue = selectors.inputEl.value.trim().toLowerCase();
 
   if (searchValue !== "") {
-    let searchCategory = products.filter(function (products) {
-      if (products.type.includes(searchValue)) {
-        return products;
-      } else if (products.name.includes(searchValue)) {
-        return products;
-      }
+    const searchCategory = products.filter((product) => {
+      return product.name.toLowerCase().includes(searchValue) || product.type.toLowerCase().includes(searchValue);
     });
-    if (searchCategory) {
+
+    // Render filtered products or a message if no products found
+    if (searchCategory.length > 0) {
       filteredProducts(searchCategory);
+    } else {
+      selectors.products.innerHTML = '<p>No products found.</p>';
     }
-    console.log(searchCategory);
+  } else {
+    renderProducts(); // Reset to show all products when input is empty
   }
 };
+
+// Search input for mobile
 const searchInputMobile = () => {
-  let searchValue = selectors.mobileInputEl.value;
+  const searchValue = selectors.mobileInputEl.value.trim().toLowerCase();
 
   if (searchValue !== "") {
-    let searchCategory = products.filter(function (products) {
-      if (products.type.includes(searchValue)) {
-        return products;
-      } else if (products.name.includes(searchValue)) {
-        return products;
-      }
+    const searchCategory = products.filter((product) => {
+      return product.name.toLowerCase().includes(searchValue) || product.type.toLowerCase().includes(searchValue);
     });
-    if (searchCategory) {
+
+    // Render filtered products or a message if no products found
+    if (searchCategory.length > 0) {
       filteredProducts(searchCategory);
+    } else {
+      selectors.products.innerHTML = '<p>No products found.</p>';
     }
-    console.log(searchCategory);
+  } else {
+    renderProducts(); // Reset to show all products when input is empty
   }
 };
+
 
 // ! Api Functions
 

@@ -1,74 +1,74 @@
 [
   {
     "id": 1,
-    "name": "COLOR PROTECTION SHAMPOO - PH 5",
-    "type": "shampoo",
-    "category": "Color / Dyed Hair",
-    "description": "Protects the dye and hair from the sun and atmospheric agents. The hair remains shiny, brilliant, and the depth and intensity of the freshly made color are maintained for a long time. The cuticle is hydrated and radiant. Enriched with Amino Concentree.",
+    "name": "LONG-LASTING FOUNDATION - SPF 15",
+    "type": "foundation",
+    "category": "Face Makeup",
+    "description": "A lightweight foundation that provides full coverage with a natural finish. Infused with SPF 15 to protect the skin from harmful UV rays. The foundation blends seamlessly, leaving the skin hydrated and radiant all day.",
     "price": 15000,
-    "image": "../shop/imgs/products imgs/SAMPON PROTECTIA CULORII – PH 5.png"
+    "image": "../shop/imgs/products imgs/LONG-LASTING FOUNDATION - SPF 15.png"
   },
   {
     "id": 2,
-    "name": "SHAMPOO WITH CAPTIVATING OILS - PH 5.5",
-    "type": "mask",
-    "category": "Shine",
-    "description": "Shampoo of splendor, ensures balanced cleansing of the scalp and leaves the hair extremely hydrated and shiny.",
+    "name": "SHINE CONTROL PRIMER",
+    "type": "primer",
+    "category": "Face Makeup",
+    "description": "A mattifying primer that controls excess shine, minimizes pores, and creates a smooth canvas for makeup application. Keeps your makeup looking fresh and long-lasting.",
     "price": 2000,
-    "image": "../shop/imgs/products imgs/SAMPON CU ULEIURI CAPTIVANTE – PH 5.5.jpeg"
+    "image": "../shop/imgs/products imgs/SHINE CONTROL PRIMER.jpeg"
   },
   {
     "id": 3,
-    "name": "RECONSTRUCTIVE SHAMPOO - PH 5.8",
+    "name": "REJUVENATING FACE MASK",
     "type": "mask",
-    "category": "Reconstruction",
-    "description": "Cleans gently while replenishing essential substances for compacting the cuticle, leaving the hair strong, toned, and vigorous. Contains beta-carotene, which provides cosmetic reconstruction treatment and protects the hair from degradation caused by physiological processes (dyeing, aging), chemical processes, or environmental factors. Reconstruction effect.",
+    "category": "Skincare",
+    "description": "This face mask is enriched with vitamins and beta-carotene to rejuvenate the skin. Helps reduce signs of aging, improves skin tone, and boosts hydration. Suitable for all skin types.",
     "price": 3000,
-    "image": "../shop/imgs/products imgs/SAMPON RECONSTRUCTIV – PH 5.8.png"
+    "image": "../shop/imgs/products imgs/REJUVENATING FACE MASK.png"
   },
   {
     "id": 4,
-    "name": "NOURISHING SHAMPOO - PH 5.5",
-    "type": "shampoo",
-    "category": "Nourishment / Nutritive",
-    "description": "Cleanses while hydrating and nourishing. Quenches the hair's hydration 'thirst,' forming a coating on lengths and ends for detangled, silky, and shiny hair. Contains Shea butter and Guar gum. Enriched with Amino Concentree.",
+    "name": "HYDRATING LIP GLOSS",
+    "type": "lip gloss",
+    "category": "Lip Makeup",
+    "description": "A nourishing lip gloss that provides long-lasting hydration while delivering a high-shine finish. Available in various shades for a glossy and plump lip look.",
     "price": 4000,
-    "image": "../shop/imgs/products imgs/SAMPON NUTRITIV – PH 5.5.png"
+    "image": "../shop/imgs/products imgs/HYDRATING LIP GLOSS.png"
   },
   {
     "id": 5,
-    "name": "REGENERATING SHAMPOO - PH 5.5",
-    "type": "mask",
-    "category": "Repair / Regeneration",
-    "description": "Shampoo that regenerates and leaves the hair very silky. Cleans gently while intensely nourishing and repairing the structure of damaged hair, restoring its strength and natural shine. Contains Lifesaver liposome (Leucine, Isoleucine, Valine, hydrolyzed Wheat proteins, Creatine), Cyperus, Sacha Inchi, Linseed, Sesame, and Moringa oils, and Panthenol.",
+    "name": "HAIR REPAIR SERUM",
+    "type": "hair serum",
+    "category": "Haircare",
+    "description": "This serum repairs damaged hair, providing intense nourishment and restoring natural shine. Ideal for dry, brittle, or chemically treated hair. The lightweight formula ensures smooth and silky hair without any residue.",
     "price": 5000,
-    "image": "../shop/imgs/products imgs/SAMPON REGENERATOR – PH 5.5.jpeg"
+    "image": "../shop/imgs/products imgs/HAIR REPAIR SERUM.jpeg"
   },
   {
     "id": 6,
-    "name": "SEBUM BALANCING SHAMPOO - PH 5.5",
-    "type": "shampoo",
-    "category": "Sebum Regulating",
-    "description": "Abietic acid and Soy proteins act synergistically, determining a dermo-purifying, dermo-protective, and hydrating action, gently eliminating excess sebum. Provides a feeling of purity, reduces discomfort caused by irritation, and maintains a purified scalp and clean hair for a long time. Ginger extract, with its exceptional ability to fight free radicals, prevents hair thinning, ensuring balanced cleansing. Hair is full, toned, with volume.",
+    "name": "VOLUME BOOST HAIR SPRAY",
+    "type": "hair spray",
+    "category": "Styling",
+    "description": "Provides a lasting hold and gives your hair a voluminous boost. This spray ensures that your hairstyle stays in place without feeling sticky or heavy.",
     "price": 6000,
-    "image": "../shop/imgs/products imgs/SAMPON ECHILIBRARE SEBUUM – PH 5.5.png"
+    "image": "../shop/imgs/products imgs/VOLUME BOOST HAIR SPRAY.png"
   },
   {
     "id": 7,
-    "name": "TWINE - FOAM FOR CURL CONTROL",
-    "type": "mask",
+    "name": "CURL DEFINING MOUSSE",
+    "type": "mousse",
     "category": "Styling",
-    "description": "Soothing foam for curls, strong hold. Creates soft, light, voluptuous curls and provides the hair with body, structure, and volume. The fast-absorbing formula guarantees defined but elastic and bouncy curls. Contains Pequi and Rosehip oil.",
+    "description": "A lightweight mousse that defines and enhances curls, giving them body and structure. Perfect for achieving soft, bouncy, and frizz-free curls.",
     "price": 7000,
-    "image": "../shop/imgs/products imgs/TWINE – SPUMA PENTRU CONTROLUL BUCLELOR.jpeg"
+    "image": "../shop/imgs/products imgs/CURL DEFINING MOUSSE.jpeg"
   },
   {
     "id": 8,
-    "name": "BLONDIE - HOME Sunset Blonde Enhancing Shampoo",
-    "type": "shampoo",
-    "category": "Blonde",
-    "description": "Colour-enhancing shampoo that is ideal for warm blondes.",
+    "name": "HIGHLIGHTER PALETTE - GOLDEN GLOW",
+    "type": "highlighter",
+    "category": "Face Makeup",
+    "description": "A highlighter palette with warm golden shades to enhance your natural glow. Easy to blend and perfect for creating a luminous, dewy finish on your face and body.",
     "price": 80000,
-    "image": "../shop/imgs/products imgs/BLONDE - BLONDE SUNSET ENHANCING SHAMPOO.jpeg"
+    "image": "../shop/imgs/products imgs/HIGHLIGHTER PALETTE - GOLDEN GLOW.jpeg"
   }
 ]
